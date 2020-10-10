@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #323b44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .navbar-brand {
+            width: 100%;
+            text-align: center;
+            color: #2c9453;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .logo-icon {
+                width: 55px;
+                height: 50px;
+            }
+        }
+    }
+}
